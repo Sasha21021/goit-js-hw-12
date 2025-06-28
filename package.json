@@ -6,9 +6,12 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build --base=/goit-js-hw-12/",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "npm run build && gh-pages -d dist"
   },
+  "homepage": "https://sasha21021.github.io/goit-js-hw-12",
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "glob": "^11.0.0",
     "postcss": "^8.4.41",
     "postcss-sort-media-queries": "^5.2.0",

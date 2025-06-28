@@ -1,10 +1,10 @@
-import { getImagesByQuery } from './src/js/pixabay-api.js';
+import { getImagesByQuery } from './js/pixabay-api.js';
 import {
   createGallery,
   clearGallery,
   showLoader,
   hideLoader,
-} from './src/js/render-functions.js';
+} from './js/render-functions.js';
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
 
