@@ -7,34 +7,28 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <!-- Вставка логотипу або навігації -->
-    </header>
-
     <main>
-      <section class="search-section">
+      <section>
         <form class="form">
-          <label>
-            <input
-              type="text"
-              name="search-text"
-              placeholder="Search images..."
-              required
-            />
-          </label>
+          <input
+            type="text"
+            name="search-text"
+            placeholder="Search images..."
+            autocomplete="off"
+          />
           <button type="submit">Search</button>
         </form>
-        <div class="loader"></div>
-      </section>
 
-      <section class="gallery-section">
-        <ul class="gallery"></ul>
+        <!-- Галерея -->
+        <div class="gallery"></div>
+
+        <!-- ✅ Loader -->
+        <span class="loader is-hidden"></span>
+
+        <!-- ✅ Кнопка "Load More" -->
+        <button type="button" class="load-more is-hidden">Load More</button>
       </section>
     </main>
-
-    <footer>
-      <!-- Контактна інформація або авторське право -->
-    </footer>
 
     <script type="module" src="./main.js"></script>
   </body>
